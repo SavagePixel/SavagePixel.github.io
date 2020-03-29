@@ -1,0 +1,481 @@
+.block1{
+position: absolute;
+width: 1920px;
+height: 700px;
+left: 0px;
+top: -7px;
+background: #EEEFF1;
+}
+
+.logo{
+position: absolute;
+width: 96px;
+height: 60px;
+left: 402px;
+top: 50px;
+font-family: Revalia;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 60px;
+text-align: center;
+color: #34547A;
+}
+
+.glav{
+position: absolute;
+width: 84px;
+height: 12px;
+left: 896px;
+top: 72px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.1em;
+color: #34547A;
+}
+
+.faq{
+position: absolute;
+width: 1000px;
+height: 16px;
+left: 1022px;
+top: 72px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.1em;
+color: #000000;
+}
+
+.job{
+position: absolute;
+width: 74px;
+height: 16px;
+left: 1164px;
+top: 72px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.1em;
+color: #000000;
+}
+
+.procces{
+position: absolute;
+width: 86px;
+height: 16px;
+left: 1280px;
+top: 72px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.1em;
+color: #000000;
+}
+
+.contact{
+position: absolute;
+width: 99px;
+height: 16px;
+left: 1408px;
+top: 72px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.1em;
+color: #000000;
+}
+
+.ozoglavie{
+position: absolute;
+width: 1000px;
+height: 45px;
+left: 974px;
+top: 250px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 79px;
+color: #000000;
+}
+
+.text{
+position: absolute;
+width: 540px;
+height: 67px;
+left: 975px;
+top: 370px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+}
+
+.computer{
+position: absolute;
+width: 357px;
+height: 233.7px;
+left: 487px;
+top: 271px;
+}
+
+.button1{
+position: absolute;
+width: 225px;
+height: 65px;
+left: 975px;
+top: 482px;
+}
+
+.faq1{
+position: absolute;
+width: 403px;
+height: 30px;
+left: 758px;
+top: 812px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 37px;
+text-align: center;
+color: #000000;
+}
+
+.text1{
+position: absolute;
+width: 540px;
+height: 67px;
+left: 690px;
+top: 892px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #727272;
+}
+
+.block2{
+position: absolute;
+width: 1920px;
+height: 250px;
+left: 0px;
+top: 1059px;
+background: #34547A;
+}
+
+.numbers{
+position: absolute;
+width: 1920px;
+height: 250px;
+left: 0px;
+top: 1059px;
+}
+.skills{
+position: absolute;
+width: 445px;
+height: 257px;
+left: 386px;
+top: 1513px;
+}
+.photo{
+    position: absolute;
+width: 555px;
+height: 450px;
+left: 981px;
+top: 1411px;
+
+background: url(photo-1508908324153-d1a219719814.jpg), #C4C4C4;
+}
+
+.MyJob{
+position: absolute;
+width: 403px;
+height: 30px;
+left: 758px;
+top: 2062px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 37px;
+text-align: center;
+color: #000000;
+}
+
+.text2{
+position: absolute;
+width: 540px;
+height: 67px;
+left: 690px;
+top: 2142px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #727272;
+}
+
+.block3{
+position: absolute;
+width: 1920px;
+height: 1004px;
+left: 0px;
+top: 1962px;
+background: #EEEFF1;
+}
+
+.video{
+    position: absolute;
+width: 1110px;
+height: 600px;
+left: 405px;
+top: 2266px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(photo-1514070706115-47c142769603.jpg);
+}
+
+.button2{
+position: absolute;
+width: 100px;
+height: 100px;
+left: 910px;
+top: 2516px;
+}
+
+.block4{
+position: absolute;
+width: 1920px;
+height: 1004px;
+left: 0px;
+top: 1962px;
+background: #EEEFF1;
+}
+
+.projects{
+position: absolute;
+width: 1920px;
+height: 960px;
+left: 0px;
+top: 2994px;
+}
+
+.clients{
+position: absolute;
+width: 1110px;
+height: 120px;
+left: 405px;
+top: 4026px;
+}
+
+.block5{
+position: absolute;
+width: 1920px;
+height: 762px;
+left: 0px;
+top: 4246px;
+background: #EEEFF1;
+}
+
+.block4{
+position: absolute;
+width: 1920px;
+height: 960px;
+left: 0px;
+top: 2994px;
+}
+
+.block5{
+position: absolute;
+width: 1920px;
+height: 762px;
+left: 0px;
+top: 4246px;
+background: #EEEFF1;
+}
+
+.making{
+position: absolute;
+width: 406px;
+height: 30px;
+left: 755px;
+top: 4346px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 37px;
+text-align: center;
+color: #000000;
+}
+
+.text3{
+position: absolute;
+width: 540px;
+height: 67px;
+left: 690px;
+top: 4426px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #727272;
+}
+
+#fbame{
+position: absolute;
+width: 255px;
+height: 50px;
+left: 690px;
+top: 4558px;
+background: #FFFFFF;
+}
+
+.block7{
+position: absolute;
+width: 255px;
+height: 50px;
+left: 975px;
+top: 4558px;
+background: #FFFFFF;
+}
+
+.block8{
+position: absolute;
+width: 540px;
+height: 175px;
+left: 690px;
+top: 4628px;
+background: #FFFFFF;
+}
+
+#send{
+position: absolute;
+width: 190px;
+height: 55px;
+left: 864px;
+top: 4853px;
+background: #34547A;
+}
+
+#fname{
+  position: absolute;
+  width: 540px;
+  height: 175px;
+  left: 690px;
+  top: 4628px;
+}
+
+#lname{
+  position: absolute;
+  width: 255px;
+  height: 50px;
+  left: 975px;
+  top: 4558px;
+}
+
+.block10{
+position: absolute;
+width: 1920px;
+height: 151px;
+left: 0px;
+top: 5008px;
+background: #34547A;
+}
+
+.name{
+position: absolute;
+width: 160px;
+height: 19px;
+left: 406px;
+top: 5058px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 550px;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+}
+
+.info2{
+position: absolute;
+width: 193px;
+height: 12px;
+left: 406px;
+top: 5097px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+.vk{
+position: absolute;
+width: 175px;
+height: 40px;
+left: 1356px;
+top: 5064px;
+}
+
+@media screen and (max-width: 1400px) and (min-width:1200px) {
+  .header {
+    padding-left: 10%;
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width:800px) {
+  .header {
+    padding-left: 4%;
+    height: 100%;
+    padding-bottom: 25%;
+  }
+    .main{
+        padding-left: 100%;
+        height: 100%;
+        padding-bottom: 25%;
+    }
+    .footer{
+        padding-left: 100%;
+        height: 100%;
+        padding-bottom: 25%;
+    }
+    
+@media screen and (max-width:360px) and (min-width:640px){
+    .header{
+        padding-left: 100%;
+        height: 100%;
+        padding-bottom: 25%;
+    }    
+    .main{
+        padding-left: 100%;
+        height: 100%;
+        padding-bottom: 25%;
+    }
+    .footer{
+        padding-left: 100%;
+        height: 100%;
+        padding-bottom: 25%;
+    }
+}
