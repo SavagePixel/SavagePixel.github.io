@@ -1,227 +1,218 @@
-ul,li{
-    display: block;
-    margin: 0;
-    padding: 0;
-}
-.menu{
-    display: flex;
-    align-items: center;
-}
-li a{
-    list-style: none;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-nav{
-    display: flex;
-    align-items: center;
-}
-.menu-item{
-    margin-right: 42px;
-    
-}
-header{
-    margin-left: 18%;
-    background: #EEEFF1;
-    height: 700px;
-    display: flex;
-}
-.content{
-    display: flex;
-    
-}
-.container{
-    width: 100%;
-    margin: 0 auto;
-}
-#GoTop{
-background-color: black;
-height: 100px;
-width: 100px;
-border:4px solid black;
-border-radius: 10px;
-position: fixed;
-background: black;
-right: 200px;
-bottom: 100px;
+* {
+  /*правильное отображение элементов с учетом всех марджинов и падингов. в начале очистим, чтобы задать потом*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.button8{
-   width: 100px;
-   height: 50px;
-}
-.block1{
-left: 0px;
-top: -7px;
-background: #EEEFF1;
+/*@-правило font-face используют для подключения шрифтов, лежащих в папке проекта*/
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Medium.ttf) format("truetype");
 }
 
-.logo{
-width: 96px;
-height: 60px;
-font-family: Revalia;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 60px;
-text-align: center;
-color: #34547A;
-margin-right: 398px;
-margin-left: 402px;
+@font-face {
+  font-family: "Revalia";
+  src: url(../fonts/Revalia-Regular.ttf) format("truetype");
 }
 
-.job{
-position: absolute;
-width: 74px;
-height: 16px;
-left: 1164px;
-top: 72px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-letter-spacing: 0.1em;
-color: #000000;
+body {
+  font-family: Roboto;
+  color: #000000;
+}
+.about-content {
+  margin-top: 119px;
+  margin-bottom: 100px;
 }
 
-.procces{
-position: absolute;
-width: 86px;
-height: 16px;
-left: 1280px;
-top: 72px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-letter-spacing: 0.1em;
-color: #000000;
+.title-min {
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
 }
 
-.contact{
-position: absolute;
-width: 99px;
-height: 16px;
-left: 1408px;
-top: 72px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-letter-spacing: 0.1em;
-color: #000000;
+.about-text {
+  font-size: 16px;
+  text-align: center;
+  color: #727272;
+  margin-top: 50px;
+}
+.skills-promo {
+  background: #34547A;
+  height: 250px;
+  width: 100%;
 }
 
-.ozoglavie{
-position: absolute;
-width: 1000px;
-height: 45px;
-left: 974px;
-top: 250px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 79px;
-color: #000000;
+.skill-promo-pic {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
-.text{
-position: absolute;
-width: 540px;
-height: 67px;
-left: 975px;
-top: 370px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-color: #727272;
+.img-skill {
+  margin-top: 100px;
+}
+.container {
+  width: 100%;
+  /*если нет сетки, то в фигме можно посмотреть выделяя от лого до конца элемента навигационного меню*/
+  margin: 0 auto;
 }
 
-.computer{
-position: absolute;
-width: 357px;
-height: 233.7px;
-left: 487px;
-top: 271px;
+.header {
+  background: #EEEFF1;
+  padding-top: 57px;
+  height: 700px;
+  padding-left: 18%;
 }
 
-.button1{
-position: absolute;
-width: 225px;
-height: 65px;
-left: 975px;
-top: 482px;
+ul, li {
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
-.faq1{
-position: absolute;
-width: 403px;
-height: 30px;
-left: 758px;
-top: 812px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 37px;
-text-align: center;
-color: #000000;
+btn {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 100px;
+  padding: 10px 0;
+  display: block;
 }
 
-.text1{
-position: absolute;
-width: 540px;
-height: 67px;
-left: 690px;
-top: 892px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-color: #727272;
+.nav {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  align-items: center;
 }
 
-.block2{
-position: absolute;
-width: 1920px;
-height: 250px;
-left: 0px;
-top: 1059px;
-background: #34547A;
+.logo {
+  font-family: Revalia;
+  font-size: 48px;
+  font-weight: normal;
+  color: #34547A;
+  margin-right: 398px;
 }
 
-.numbers{
-position: absolute;
-width: 1920px;
-height: 250px;
-left: 0px;
-top: 1059px;
-}
-.skills{
-position: absolute;
-width: 445px;
-height: 257px;
-left: 386px;
-top: 1513px;
-}
-.photo{
-    position: absolute;
-width: 555px;
-height: 450px;
-left: 981px;
-top: 1411px;
-
-background: url(photo-1508908324153-d1a219719814.jpg), #C4C4C4;
+.menu {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  align-items: center;
 }
 
+.menu-item {
+  margin-right: 42px;
+}
+
+.menu-item a:hover {
+  color: #34547A;
+}
+
+.menu-item a {
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.offer {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  align-items: center;
+}
+
+.offer-pic {
+  margin-right: 143px;
+  margin-top: 161px;
+}
+
+.offer-content {
+  margin-top: 135px;
+}
+
+.offer-title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+.offer-txt {
+  width: 540px;
+  font-weight: normal;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 85px;
+  display: block;
+}
+
+.btn-offer {
+  width: 255px;
+  text-decoration: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  background: #34547A;
+  padding: 25px 41px 25px;
+  font-weight: normal;
+}
+
+.btn-offer:hover {
+  text-decoration: underline;
+}
+.skills {
+  height: 653px;
+}
+
+.skills-all {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-content {
+  margin-top: 204px;
+  margin-right: 150px;
+}
+
+.skills-pic {
+  margin-top: 120px;
+}
+
+.skills-title {
+  margin-bottom: 50px;
+}
+
+.skill-name {
+  font-weight: normal;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 19px;
+}
+
+.line-skill {
+  margin-bottom: 29px;
+}
 .MyJob{
 position: absolute;
 width: 403px;
@@ -250,15 +241,6 @@ font-size: 16px;
 line-height: 26px;
 text-align: center;
 color: #727272;
-}
-
-.block3{
-position: absolute;
-width: 1920px;
-height: 1004px;
-left: 0px;
-top: 1962px;
-background: #EEEFF1;
 }
 
 .video{
@@ -410,14 +392,13 @@ background: #34547A;
   left: 975px;
   top: 4558px;
 }
-
 .block10{
-position: absolute;
-width: 1920px;
-height: 151px;
-left: 0px;
-top: 5008px;
-background: #34547A;
+    position: absolute;
+    width: 1920px;
+    height: 151px;
+    left: 0px;
+    top: 5008px;
+    background: #34547A;
 }
 
 .name{
@@ -495,5 +476,16 @@ top: 5064px;
         height: 100%;
         padding-bottom: 25%;
     }
+}
+#GoTop{
+background-color: black;
+height: 100px;
+width: 100px;
+border:4px solid black;
+border-radius: 10px;
+position: fixed;
+background: black;
+right: 200px;
+bottom: 100px;
 }
     
