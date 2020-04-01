@@ -4,7 +4,17 @@
   margin: 0;
   padding: 0;
 }
-
+#GoTop{
+background-color: black;
+height: 100px;
+width: 100px;
+border:4px solid black;
+border-radius: 10px;
+position: fixed;
+background: black;
+right: 200px;
+bottom: 100px;
+}
 /*@-правило font-face используют для подключения шрифтов, лежащих в папке проекта*/
 @font-face {
   font-family: "Roboto";
@@ -271,11 +281,11 @@ background: #EEEFF1;
 }
 
 .projects{
-position: absolute;
+    
 width: 1920px;
 height: 960px;
 left: 0px;
-top: 2994px;
+margin-top: 1250px;
 }
 
 .clients{
@@ -283,7 +293,7 @@ position: absolute;
 width: 1110px;
 height: 120px;
 left: 405px;
-top: 4026px;
+top: 4150px;
 }
 
 .block5{
@@ -301,7 +311,6 @@ height: 960px;
 left: 0px;
 top: 2994px;
 }
-
 .block5{
 position: absolute;
 width: 1920px;
@@ -477,15 +486,3 @@ top: 5064px;
         padding-bottom: 25%;
     }
 }
-#GoTop{
-background-color: black;
-height: 100px;
-width: 100px;
-border:4px solid black;
-border-radius: 10px;
-position: fixed;
-background: black;
-right: 200px;
-bottom: 100px;
-}
-    
