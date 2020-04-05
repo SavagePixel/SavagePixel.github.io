@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
 }
+/* кнопка в самый верх */
 #GoTop{
 background-color: black;
 height: 100px;
@@ -39,6 +40,9 @@ body {
   font-weight: 500;
   font-size: 32px;
   text-align: center;
+}
+input:focus: :placeholder{
+    color: tran;
 }
 
 .about-text {
@@ -111,7 +115,7 @@ btn {
   color: #34547A;
   margin-right: 398px;
 }
-
+/* Навиг.меню */
 .menu {
   display: flex;
   display: -webkit-flex;
@@ -186,6 +190,7 @@ btn {
 .btn-offer:hover {
   text-decoration: underline;
 }
+/* скиллы */
 .skills {
   height: 653px;
 }
@@ -349,7 +354,7 @@ line-height: 26px;
 text-align: center;
 color: #727272;
 }
-
+/* форма */
 #fbame{
 position: absolute;
 width: 255px;
@@ -401,6 +406,7 @@ background: #34547A;
   left: 975px;
   top: 4558px;
 }
+/* футер */
 .block10{
     position: absolute;
     width: 1920px;
@@ -445,7 +451,7 @@ height: 40px;
 left: 1356px;
 top: 5064px;
 }
-
+/* Разные разрешения */
 @media screen and (max-width: 1366px) and (min-width:768px) {
     header{
         width: 1920px;
