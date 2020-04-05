@@ -1,140 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Stanislav Staselko">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="main.js">
-      alert("hello")
+        alert("hello")
+
     </script>
     <link href="https://fonts.googleapis.com/css?family=Revalia&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Revalia|Roboto&display=swap" rel="stylesheet">
 </head>
+
 <body>
- <!--Кнопка в самое начало-->
-  <input type="button" onclick="BackToTop()" class="GoTop"id="GoTop" value="UP">
-     <header class="header" id="header">
-     <!--Навиг.меню-->
-    <div class="container">
-      <nav class="nav">
-        <div class="logo">SS</div>
-        <ul class="menu">
-          <li class="menu-item"><a href="#header" type="active">Главная</a></li>
-          <li class="menu-item"><a href="#about" type="active">Автор</a></li>
-          <li class="menu-item"><a href="#faq1" type="active">Работы</a></li>
-          <li class="menu-item"><a href="#faq1" type="active">Процесс</a></li>
-          <li class="menu-item"><a href="#contacts" type="active">Контакты</a></li>
-        </ul>
-      </nav>
-      <div class="offer">
-        <div class="offer-pic">
-          <img src="images/frame.svg" alt="">
+    <!--Кнопка в самое начало-->
+    <input type="button" onclick="BackToTop()" class="GoTop" id="GoTop" value="UP">
+    <header class="header" id="header">
+        <!--Навиг.меню-->
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">SS</div>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#header" type="active">Главная</a></li>
+                    <li class="menu-item"><a href="#about" type="active">Автор</a></li>
+                    <li class="menu-item"><a href="#faq1" type="active">Работы</a></li>
+                    <li class="menu-item"><a href="#faq1" type="active">Процесс</a></li>
+                    <li class="menu-item"><a href="#contacts" type="active">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="offer">
+                <div class="offer-pic">
+                    <img src="images/frame.svg" alt="">
+                </div>
+                <div class="offer-content">
+                    <div class="offer-title">
+                        Разработка
+                    </div>
+                    <div class="offer-txt">
+                        <p>
+                            Пишу сайты на css,html и js
+                        </p>
+                    </div>
+                    <a href="#form" class="btn btn-offer btn-offer-max">Написать мне</a>
+                </div>
+            </div>
         </div>
-        <div class="offer-content">
-          <div class="offer-title">
-            Разработка
-          </div>
-          <div class="offer-txt">
-            <p>
-              Пишу сайты на css,html и js
-            </p>
-          </div>
-          <a href="#form" class="btn btn-offer btn-offer-max">Написать мне</a>
+    </header>
+    <main>
+        <!--Информация-->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="title-min about-title">Обо мне</div>
+                    <div class="about-text">
+                        <p>
+                            Учусь frontend разработки. Пишу на языках java script,css,html.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Мои проекты-->
+        <section class="skills-promo" id="skills-promo">
+            <div class="container">
+                <div class="skill-promo-pic">
+                    <div class="img-skill"> <img src="images/projects.png" alt="project"></div>
+                    <div class="img-skill"> <img src="images/projects.png" alt="project"></div>
+                    <div class="img-skill"> <img src="images/projects.png" alt="project"></div>
+                    <div class="img-skill"> <img src="images/projects.png" alt="project"></div>
+                    <div class="img-skill"> <img src="images/projects.png" alt="project"></div>
+                </div>
+            </div>
+        </section>
+        <!--Мои скиллы-->
+        <section class="skills" id="skills">
+            <div class="container">
+                <div class="skills-all">
+                    <div class="skills-content">
+                        <div class="title-min skills-title">Мои навыки</div>
+                        <div class="skill1">
+                            <div class="skill-name">css</div>
+                            <div class="line-skill"><img src="images/progress.png" alt="line_skill"></div>
+                        </div>
+                        <div class="skill2">
+                            <div class="skill-name">html</div>
+                            <div class="line-skill"><img src="images/progress.png" alt="line_skill"></div>
+                        </div>
+                        <div class="skill3">
+                            <div class="skill-name">java script</div>
+                            <div class="line-skill"><img src="images/progress.png" alt="line_skill"></div>
+                        </div>
+                    </div>
+                    <div class="skills-pic">
+                        <img src="images/dabdabdab.jpg" alt="developer">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq6" id="faq1">
+            <div class="container">
+                <div class="block3"></div>
+                <div class="MyWork">
+                    <div class="MyJob">
+                        <h2>Ролик по теме frontend</h2>
+                    </div>
+                    <div class="text2">
+                        <p>Никак,мне 12 лет какая работа?</p>
+                    </div>
+                </div>
+                <div class="video"><iframe width="1110" height="600" ; src="https://www.youtube.com/embed/5osJMAnzwkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="clients"><img src="images/clients.svg" alt="clients"></div>
+            <!--TODO:Поправить картинку<div class="projects"><img src="images/projects.svg" alt="projects"></div>-->
+            <div class="making">
+                <h2>Хотите веб-сайт?</h2>
+            </div>
+            <div class="text3">
+                <p>Напишите мне:)</p>
+            </div>
         </div>
-      </div>
-    </div>
-   </header>
-   <main>
-      <!--Информация-->
-       <section class="about" id="about">
-    <div class="container">
-      <div class="about-content">
-        <div class="title-min about-title">Обо мне</div>
-        <div class="about-text">
-          <p>
-            Учусь frontend разработки. Пишу на языках java script,css,html.
-          </p>
+        <div class="container">
+            <section class="form">
+                <form id="form">
+                    <label for="fname"></label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname"></label><br>
+                    <input type="text" id="lname" name="lname">
+                    <label for="fbame"></label><br>
+                    <input type="text" id="fbame" name="fbame"><br>
+                    <input type="button" Onclick="btnClick();" id="send" name="Send">
+                </form>
+            </section>
         </div>
-      </div>
-    </div>
-  </section>
-   <!--Мои проекты-->
-	   <section class="skills-promo" id="skills-promo">
-    <div class="container">
-      <div class="skill-promo-pic">
-        <div class="img-skill"> <img src="images/projects.png" alt="project"></div>
-        <div class="img-skill"> <img src="images/projects.png" alt="project"></div>
-        <div class="img-skill"> <img src="images/projects.png" alt="project"></div>
-        <div class="img-skill"> <img src="images/projects.png" alt="project"></div>
-        <div class="img-skill"> <img src="images/projects.png" alt="project"></div>
-      </div>
-    </div>
-       </section>
-       <!--Мои скиллы-->
-	<section class="skills" id="skills">
-    <div class="container">
-      <div class="skills-all">
-        <div class="skills-content">
-          <div class="title-min skills-title">Мои навыки</div>
-          <div class="skill1">
-            <div class="skill-name">css</div>
-            <div class="line-skill"><img src="images/progress.png" alt="line_skill"></div>
-          </div>
-          <div class="skill2">
-            <div class="skill-name">html</div>
-            <div class="line-skill"><img src="images/progress.png" alt="line_skill"></div>
-          </div>
-          <div class="skill3">
-            <div class="skill-name">java script</div>
-            <div class="line-skill"><img src="images/progress.png" alt="line_skill"></div>
-          </div>
+    </main>
+    <!--Контакты-->
+    <footer id="footer">
+        <div class="container">
+            <section id="contacts" class="contacts">
+                <div class="block10"></div>
+                <div class="name">
+                    <h3>Стаселько Стас</h3>
+                </div>
+                <div class="info2">
+                    <p>(с) 2020. Все права защищены.</p>
+                </div>
+                <div class="vk"><img src="images/footer__soc-buttons.svg" alt="vk"></div>
+            </section>
         </div>
-        <div class="skills-pic">
-          <img src="images/dabdabdab.jpg" alt="developer">
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="faq6" id="faq1">
-      <div class="container">
-       <div class="block3"></div>
-       <div class="MyWork">
-       <div class="MyJob"><h2>Как я работаю</h2></div>
-       <div class="text2"><p>Никак,мне 12 лет какая работа?</p></div>
-       </div>
-       <div class="video"><iframe width="1110" height="600"; 
-       src="https://www.youtube.com/embed/5osJMAnzwkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-       </div>
-       </section>
-       <div class="container">
-       <div class="clients"><img src="images/clients.svg" alt="clients"></div>
-       <div class="projects"><img src="images/projects.svg" alt="projects"></div>
-       <div class="making"><h2>Хотите веб-сайт?</h2></div>
-       <div class="text3"><p>Напишите мне:)</p></div>
-       </div>
-       <div class="container">
-	   <section class="form">
-       <form id="form">
-         <label for="fname"></label><br>
-         <input type="text" id="fname" name="fname"><br>
-         <label for="lname"></label><br>
-         <input type="text" id="lname" name="lname">
-         <label for="fbame"></label><br>
-         <input type="text" id="fbame" name="fbame"><br>
-         <input type="button" Onclick="btnClick();" id="send" name="Send">
-       </form>
-      </section>
-       </div>
-   </main>
-   <!--Контакты-->
-   <footer id="footer">
-      <section id="contacts" class="contacts">
-       <div class="block10"></div>
-       <div class="name"><h3>Стаселько Стас</h3></div>
-       <div class="info2"><p>(с) 2020. Все права защищены.</p></div>
-       <div class="vk"><img src="images/footer__soc-buttons.svg" alt="vk"></div>
-       </section>
-   </footer>
+    </footer>
 </body>
+
 </html>

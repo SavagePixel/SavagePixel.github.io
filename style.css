@@ -1,488 +1,376 @@
 * {
-  /*правильное отображение элементов с учетом всех марджинов и падингов. в начале очистим, чтобы задать потом*/
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    /*правильное отображение элементов с учетом всех марджинов и падингов. в начале очистим, чтобы задать потом*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 /* кнопка в самый верх */
-#GoTop{
-background-color: black;
-height: 100px;
-width: 100px;
-border:4px solid black;
-border-radius: 10px;
-position: fixed;
-background: black;
-right: 200px;
-bottom: 100px;
+#GoTop {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border: 4px solid black;
+    border-radius: 10px;
+    position: fixed;
+    background: black;
+    right: 200px;
+    bottom: 100px;
 }
+
 /*@-правило font-face используют для подключения шрифтов, лежащих в папке проекта*/
 @font-face {
-  font-family: "Roboto";
-  src: url(../fonts/Roboto-Medium.ttf) format("truetype");
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Medium.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "Revalia";
-  src: url(../fonts/Revalia-Regular.ttf) format("truetype");
+    font-family: "Revalia";
+    src: url(../fonts/Revalia-Regular.ttf) format("truetype");
 }
 
 body {
-  font-family: Roboto;
-  color: #000000;
+    font-family: Roboto;
+    color: #000000;
 }
+
 .about-content {
-  margin-top: 119px;
-  margin-bottom: 100px;
+    margin-top: 119px;
+    margin-bottom: 100px;
 }
 
 .title-min {
-  font-weight: 500;
-  font-size: 32px;
-  text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
 }
-input:focus: :placeholder{
-    color: tran;
+
+input:focus: :placeholder {
+    color: transparent;
 }
 
 .about-text {
-  font-size: 16px;
-  text-align: center;
-  color: #727272;
-  margin-top: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+    margin-top: 50px;
 }
+
 .skills-promo {
-  background: #34547A;
-  height: 250px;
-  width: 1920px;
+    background: #34547A;
+    height: 250px;
 }
 
 .skill-promo-pic {
-  display: flex;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .img-skill {
-  margin-top: 100px;
+    margin-top: 100px;
 }
+
 .container {
-  width: 100%;
-  /*если нет сетки, то в фигме можно посмотреть выделяя от лого до конца элемента навигационного меню*/
-  margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .header {
-  background: #EEEFF1;
-  padding-top: 57px;
-  height: 700px;
-  padding-left: 18%;
+    background: #EEEFF1;
+    padding-top: 57px;
+    height: 700px;
+    padding-left: 18%;
 }
 
-ul, li {
-  display: block;
-  margin: 0;
-  padding: 0;
+ul,
+li {
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 
 btn {
-  font-weight: 500;
-  font-size: 14px;
-  text-align: center;
-  border-radius: 100px;
-  padding: 10px 0;
-  display: block;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 100px;
+    padding: 10px 0;
+    display: block;
 }
 
 .nav {
-  display: flex;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  align-items: center;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    align-items: center;
 }
 
 .logo {
-  font-family: Revalia;
-  font-size: 48px;
-  font-weight: normal;
-  color: #34547A;
-  margin-right: 398px;
+    font-family: Revalia;
+    font-size: 48px;
+    font-weight: normal;
+    color: #34547A;
+    margin-right: 100px;
 }
+
 /* Навиг.меню */
 .menu {
-  display: flex;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  align-items: center;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    align-items: center;
 }
 
 .menu-item {
-  margin-right: 42px;
+    margin-right: 10px;
 }
 
 .menu-item a:hover {
-  color: #34547A;
+    color: #34547A;
 }
 
 .menu-item a {
-  color: #000000;
-  font-weight: 500;
-  font-size: 16px;
-  text-transform: uppercase;
-  text-decoration: none;
-  list-style-type: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .offer {
-  display: flex;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  align-items: center;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    align-items: center;
 }
 
-.offer-pic {
-  margin-right: 143px;
-  margin-top: 161px;
-}
+.offer-pic {}
 
-.offer-content {
-  margin-top: 135px;
-}
+.offer-content {}
 
 .offer-title {
-  font-size: 48px;
-  font-weight: 500;
-  margin-bottom: 60px;
+    font-size: 48px;
+    font-weight: 500;
 }
 
 .offer-txt {
-  width: 540px;
-  font-weight: normal;
-  font-size: 16px;
-  color: #727272;
-  margin-bottom: 85px;
-  display: block;
+    font-weight: normal;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 85px;
+    display: block;
 }
 
 .btn-offer {
-  width: 255px;
-  text-decoration: none;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  font-size: 16px;
-  letter-spacing: 0.1em;
-  background: #34547A;
-  padding: 25px 41px 25px;
-  font-weight: normal;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    background: #34547A;
+    padding: 25px 41px 25px;
+    font-weight: normal;
 }
 
 .btn-offer:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
+
 /* скиллы */
 .skills {
-  height: 653px;
+    height: 653px;
 }
 
 .skills-all {
-  display: flex;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.skills-content {
-  margin-top: 204px;
-  margin-right: 150px;
-}
+.skills-content {}
 
-.skills-pic {
-  margin-top: 120px;
-}
+.skills-pic {}
 
-.skills-title {
-  margin-bottom: 50px;
-}
+.skills-title {}
 
 .skill-name {
-  font-weight: normal;
-  font-size: 16px;
-  color: #727272;
-  margin-bottom: 19px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #727272;
 }
 
-.line-skill {
-  margin-bottom: 29px;
+.line-skill {}
+
+.MyJob {
+    height: 30px;
+    top: 2062px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
 }
-.MyJob{
-position: absolute;
-width: 403px;
-height: 30px;
-margin-left: 758px;
-top: 2062px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 37px;
-text-align: center;
-color: #000000;
+.video {
+    display: block;
+    height: 600px;
+    width: 40%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(photo-1514070706115-47c142769603.jpg);
 }
 
-.text2{
-position: absolute;
-width: 540px;
-height: 67px;
-left: 690px;
-top: 2142px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-color: #727272;
+.button2 {
+    height: 100px;
+    : 910px;
+    : 2516px;
 }
 
-.video{
-    position: absolute;
-width: 1110px;
-height: 600px;
-left: 405px;
-top: 2266px;
-
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(photo-1514070706115-47c142769603.jpg);
+.block4 {
+    height: 1004px;
+    background: #EEEFF1;
 }
 
-.button2{
-position: absolute;
-width: 100px;
-height: 100px;
-left: 910px;
-top: 2516px;
+.projects {
+    width: 100%;
+    height: 960px;
 }
 
-.block4{
-position: absolute;
-width: 1920px;
-height: 1004px;
-left: 0px;
-top: 1962px;
-background: #EEEFF1;
+.clients {
+    height: 120px;
 }
 
-.projects{
-    
-width: 1920px;
-height: 960px;
-left: 0px;
-margin-top: 1250px;
+.block5 {
+    height: 762px;
+    background: #EEEFF1;
 }
 
-.clients{
-position: absolute;
-width: 1110px;
-height: 120px;
-left: 405px;
-top: 4150px;
+.block4 {
+    height: 960px;
 }
 
-.block5{
-width: 1920px;
-height: 762px;
-left: 0px;
-top: 4246px;
-background: #EEEFF1;
+.block5 {
+    height: 762px;
+    background: #EEEFF1;
 }
 
-.block4{
-position: absolute;
-width: 1920px;
-height: 960px;
-left: 0px;
-top: 2994px;
-}
-.block5{
-position: absolute;
-width: 1920px;
-height: 762px;
-left: 0px;
-top: 4246px;
-background: #EEEFF1;
+.making {
+    height: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
 }
 
-.making{
-position: absolute;
-width: 406px;
-height: 30px;
-left: 755px;
-top: 4346px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 37px;
-text-align: center;
-color: #000000;
+.text3 {
+    height: 67px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
 }
 
-.text3{
-position: absolute;
-width: 540px;
-height: 67px;
-left: 690px;
-top: 4426px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-color: #727272;
-}
 /* форма */
-#fbame{
-position: absolute;
-width: 255px;
-height: 50px;
-left: 690px;
-top: 4558px;
-background: #FFFFFF;
+#fbame {
+    height: 50px;
+    background: #FFFFFF;
 }
 
-.block7{
-position: absolute;
-width: 255px;
-height: 50px;
-left: 975px;
-top: 4558px;
-background: #FFFFFF;
+.block7 {
+    height: 50px;
+    background: #FFFFFF;
 }
 
-.block8{
-position: absolute;
-width: 540px;
-height: 175px;
-left: 690px;
-top: 4628px;
-background: #FFFFFF;
+.block8 {
+    height: 175px;
+    background: #FFFFFF;
 }
 
-#send{
-position: absolute;
-width: 190px;
-height: 55px;
-left: 864px;
-top: 4853px;
-background: #34547A;
-}
-
-#fname{
-  position: absolute;
-  width: 540px;
-  height: 175px;
-  left: 690px;
-  top: 4628px;
-}
-
-#lname{
-  position: absolute;
-  width: 255px;
-  height: 50px;
-  left: 975px;
-  top: 4558px;
-}
-/* футер */
-.block10{
+#send {
     position: absolute;
-    width: 1920px;
-    height: 151px;
-    left: 0px;
-    top: 5008px;
+    height: 55px;
     background: #34547A;
 }
 
-.name{
-position: absolute;
-width: 160px;
-height: 19px;
-left: 406px;
-top: 5058px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 550px;
-font-size: 18px;
-line-height: 25px;
-color: #FFFFFF;
+#fname {
+    height: 175px;
 }
 
-.info2{
-position: absolute;
-width: 193px;
-height: 12px;
-left: 406px;
-top: 5097px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 21px;
-color: #FFFFFF;
+#lname {
+    height: 50px;
 }
 
-.vk{
-position: absolute;
-width: 175px;
-height: 40px;
-left: 1356px;
-top: 5064px;
+/* футер */
+.block10 {
+    height: 151px;
+    background: #34547A;
 }
+
+.name {
+    height: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 550px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.info2 {
+    height: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.vk {
+    height: 40px;
+}
+
 /* Разные разрешения */
-@media screen and (max-width: 1366px) and (min-width:768px) {
-    header{
-        width: 1920px;
-    }
-    .about-content{
-        margin-left: 500px;
-    }
-    .skills-promo{
-        width: 1920px;
-    }
-    .skills-content{
-        margin-left: 300px;
-    }
+@media screen and (max-width: 1600px) and (min-width:768px) {
+    header {}
+
+    .about-content {}
+
+    .skills-content {}
+
+    .block10 {}
 }
 
-@media screen and (max-width:1536px) and (min-width:864px){
-   header{
-        width: 1920px;
-    } 
-    .about-content{
-        margin-left: 450px;
-    }
-    .skills-promo{
-        
-    }
-    .skills-content{
-        margin-left: 300px;
-    }
+@media screen and (max-width:1536px) and (min-width:864px) {
+    .about-content {}
+
+    .skills-content {}
+
+    .menu {}
 }
-@media screen and (max-width:360px) and (min-width:640px){
-    .MyJob{
-        margin-left: 500px;
-    }
+
+@media screen and (max-width:360px) and (min-width:640px) {
+    .MyJob {}
 }
