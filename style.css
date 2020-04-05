@@ -50,7 +50,7 @@ body {
 .skills-promo {
   background: #34547A;
   height: 250px;
-  width: 100%;
+  width: 1920px;
 }
 
 .skill-promo-pic {
@@ -454,7 +454,7 @@ top: 5064px;
         margin-left: 500px;
     }
     .skills-promo{
-        margin-left: 250px;
+        width: 1920px;
     }
     .skills-content{
         margin-left: 300px;
@@ -469,7 +469,7 @@ top: 5064px;
         margin-left: 450px;
     }
     .skills-promo{
-        margin-left: 200px;
+        
     }
     .skills-content{
         margin-left: 300px;
