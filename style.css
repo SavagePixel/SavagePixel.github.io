@@ -118,7 +118,7 @@ btn {
     font-size: 48px;
     font-weight: normal;
     color: #34547A;
-    margin-right: 100px;
+    margin-right: 398px;
 }
 
 /* Навиг.меню */
@@ -157,7 +157,10 @@ btn {
     align-items: center;
 }
 
-.offer-pic {}
+.offer-pic {
+    margin-right: 131px;
+    margin-top: 161px;
+}
 
 .offer-content {}
 
@@ -216,8 +219,6 @@ btn {
     color: #727272;
 }
 
-.line-skill {}
-
 .MyJob {
     height: 30px;
     top: 2062px;
@@ -229,6 +230,7 @@ btn {
     text-align: center;
     color: #000000;
 }
+
 .video {
     display: block;
     height: 600px;
