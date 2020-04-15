@@ -18,7 +18,6 @@
     bottom: 100px;
 }
 
-/*@-правило font-face используют для подключения шрифтов, лежащих в папке проекта*/
 @font-face {
     font-family: "Roboto";
     src: url(../fonts/Roboto-Medium.ttf) format("truetype");
@@ -59,6 +58,7 @@ input:focus: :placeholder {
 .skills-promo {
     background: #34547A;
     height: 250px;
+    margin-bottom: 102px;
 }
 
 .skill-promo-pic {
@@ -102,6 +102,11 @@ btn {
     border-radius: 100px;
     padding: 10px 0;
     display: block;
+}
+
+.text2 {
+    margin-bottom: 57px;
+    margin-left: 690px;
 }
 
 .nav {
@@ -209,7 +214,9 @@ btn {
 
 .skills-content {}
 
-.skills-pic {}
+.skills-pic {
+    margin-left: 192px;
+}
 
 .skills-title {}
 
@@ -221,7 +228,7 @@ btn {
 
 .MyJob {
     height: 30px;
-    top: 2062px;
+    margin-bottom: 50px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -235,13 +242,11 @@ btn {
     display: block;
     height: 600px;
     width: 40%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(photo-1514070706115-47c142769603.jpg);
+    margin-left: 405px;
 }
 
 .button2 {
     height: 100px;
-    : 910px;
-    : 2516px;
 }
 
 .block4 {
@@ -249,11 +254,48 @@ btn {
     background: #EEEFF1;
 }
 
-.projects {
-    width: 100%;
-    height: 960px;
+.project {
+    display: grid;
+    grid-template-columns: 50px 50px 5px;
+    grid-column-gap: 430px;
 }
 
+.projects {
+    width: 5%;
+    height: 5%;
+}
+.one-project{
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+.two-project{
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+.three-project{
+    grid-column: 3 / 4;
+    grid-row: 1;
+}
+.four-project{
+    grid-column: 4 / 4;
+    grid-row: 1;
+}
+.five-project{
+    grid-column: 1 / 4;
+    grid-row: 2;
+}
+.six-project{
+    grid-column: 2 / 4;
+    grid-row: 2;
+}
+.seven-project{
+    grid-column: 3 / 4;
+    grid-row: 2;
+}
+.eight-project{
+    grid-column: 4 / 4;
+    grid-row: 2;
+}
 .clients {
     height: 120px;
 }
@@ -281,6 +323,7 @@ btn {
     line-height: 37px;
     text-align: center;
     color: #000000;
+    margin-bottom: 50px;
 }
 
 .text3 {
@@ -295,9 +338,14 @@ btn {
 }
 
 /* форма */
+#form{
+    display:block;
+}
 #fbame {
     height: 50px;
+    width: 40%;
     background: #FFFFFF;
+    margin-left: 100px;
 }
 
 .block7 {
@@ -311,25 +359,31 @@ btn {
 }
 
 #send {
-    position: absolute;
     height: 55px;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 100px;
     background: #34547A;
 }
 
 #fname {
-    height: 175px;
+    height: 50px;
+    width: 40%;
+    margin-left: 100px;
 }
 
 #lname {
     height: 50px;
+    width: 40%;
+    margin-bottom: 10px;
+    margin-left: 100px;
 }
 
 /* футер */
-.block10 {
-    height: 151px;
-    background: #34547A;
+.footer{
+    width: 100%;
+    background:lightblue;
 }
-
 .name {
     height: 19px;
     font-family: Roboto;
@@ -352,6 +406,7 @@ btn {
 
 .vk {
     height: 40px;
+    margin-left: 400px;
 }
 
 /* Разные разрешения */
@@ -363,6 +418,32 @@ btn {
     .skills-content {}
 
     .block10 {}
+}
+@media screen and (max-width:1280px) and (min-width:720px) {
+    .one-project{
+        width:10px;
+}
+    .two-project{
+       width:10px;
+}
+    .three-project{
+        width:10px;
+}
+    .four-project{
+        width:10px;
+}
+    .five-project{
+        width:10px;
+}
+    .six-project{
+        width:10px;
+}
+    .seven-project{
+        width:10px;
+}
+    .eight-project{
+        width:10px;
+}
 }
 
 @media screen and (max-width:1536px) and (min-width:864px) {
