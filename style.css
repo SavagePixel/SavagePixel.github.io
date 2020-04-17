@@ -437,38 +437,7 @@ btn {
 }
 
 @media screen and (max-width:1280px) and (min-width:720px) {
-  /* !!! Зачем менял здесь ширину? Эо не нужно делать
-  .one-project {
-    width: 10px;
-  }
 
-  .two-project {
-    width: 10px;
-  }
-
-  .three-project {
-    width: 10px;
-  }
-
-  .four-project {
-    width: 10px;
-  }
-
-  .five-project {
-    width: 10px;
-  }
-
-  .six-project {
-    width: 10px;
-  }
-
-  .seven-project {
-    width: 10px;
-  }
-
-  .eight-project {
-    width: 10px;
-  } */
 }
 
 @media screen and (max-width:1536px) and (min-width:864px) {
