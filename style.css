@@ -1,459 +1,484 @@
 * {
-    /*правильное отображение элементов с учетом всех марджинов и падингов. в начале очистим, чтобы задать потом*/
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  /*правильное отображение элементов с учетом всех марджинов и падингов. в начале очистим, чтобы задать потом*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* кнопка в самый верх */
 #GoTop {
-    background-color: black;
-    height: 100px;
-    width: 100px;
-    border: 4px solid black;
-    border-radius: 10px;
-    position: fixed;
-    background: black;
-    right: 200px;
-    bottom: 100px;
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  border: 4px solid black;
+  border-radius: 10px;
+  position: fixed;
+  background: black;
+  right: 200px;
+  bottom: 100px;
 }
 
 @font-face {
-    font-family: "Roboto";
-    src: url(../fonts/Roboto-Medium.ttf) format("truetype");
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Medium.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: "Revalia";
-    src: url(../fonts/Revalia-Regular.ttf) format("truetype");
+  font-family: "Revalia";
+  src: url(../fonts/Revalia-Regular.ttf) format("truetype");
 }
 
 body {
-    font-family: Roboto;
-    color: #000000;
+  font-family: Roboto;
+  color: #000000;
 }
 
 .about-content {
-    margin-top: 119px;
-    margin-bottom: 100px;
+  margin-top: 119px;
+  margin-bottom: 100px;
 }
 
 .title-min {
-    font-weight: 500;
-    font-size: 32px;
-    text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
 }
 
 input:focus: :placeholder {
-    color: transparent;
+  color: transparent;
 }
 
 .about-text {
-    font-size: 16px;
-    text-align: center;
-    color: #727272;
-    margin-top: 50px;
+  font-size: 16px;
+  text-align: center;
+  color: #727272;
+  margin-top: 50px;
 }
 
 .skills-promo {
-    background: #34547A;
-    height: 250px;
-    margin-bottom: 102px;
+  background: #34547A;
+  height: 250px;
+  margin-bottom: 102px;
 }
 
 .skill-promo-pic {
-    display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .img-skill {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .container {
-    width: 100%;
-    margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .header {
-    background: #EEEFF1;
-    padding-top: 57px;
-    height: 700px;
-    padding-left: 18%;
+  background: #EEEFF1;
+  padding-top: 57px;
+  height: 700px;
+  padding-left: 18%;
 }
 
 ul,
 li {
-    display: block;
-    margin: 0;
-    padding: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
 btn {
-    font-weight: 500;
-    font-size: 14px;
-    text-align: center;
-    border-radius: 100px;
-    padding: 10px 0;
-    display: block;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 100px;
+  padding: 10px 0;
+  display: block;
 }
 
 .text2 {
-    margin-bottom: 57px;
-    margin-left: 690px;
+  margin-bottom: 57px;
+  margin-left: 690px;
 }
 
 .nav {
-    display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    align-items: center;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  align-items: center;
 }
 
 .logo {
-    font-family: Revalia;
-    font-size: 48px;
-    font-weight: normal;
-    color: #34547A;
-    margin-right: 398px;
+  font-family: Revalia;
+  font-size: 48px;
+  font-weight: normal;
+  color: #34547A;
+  margin-right: 40%;
 }
 
 /* Навиг.меню */
 .menu {
-    display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    align-items: center;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  align-items: center;
 }
 
 .menu-item {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .menu-item a:hover {
-    color: #34547A;
+  color: #34547A;
 }
 
 .menu-item a {
-    color: #000000;
-    font-weight: 500;
-    font-size: 16px;
-    text-transform: uppercase;
-    text-decoration: none;
-    list-style-type: none;
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .offer {
-    display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    align-items: center;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  align-items: center;
 }
 
 .offer-pic {
-    margin-right: 131px;
-    margin-top: 161px;
+  margin-right: 131px;
+  margin-top: 161px;
 }
 
 .offer-content {}
 
 .offer-title {
-    font-size: 48px;
-    font-weight: 500;
+  font-size: 48px;
+  font-weight: 500;
 }
 
 .offer-txt {
-    font-weight: normal;
-    font-size: 16px;
-    color: #727272;
-    margin-bottom: 85px;
-    display: block;
+  font-weight: normal;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 85px;
+  display: block;
 }
 
 .btn-offer {
-    text-decoration: none;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: 0.1em;
-    background: #34547A;
-    padding: 25px 41px 25px;
-    font-weight: normal;
+  text-decoration: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  background: #34547A;
+  padding: 25px 41px 25px;
+  font-weight: normal;
 }
 
 .btn-offer:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* скиллы */
 .skills {
-    height: 653px;
+  height: 653px;
 }
 
 .skills-all {
-    display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .skills-content {}
 
 .skills-pic {
-    margin-left: 192px;
+  margin-left: 5%;
 }
 
 .skills-title {}
 
 .skill-name {
-    font-weight: normal;
-    font-size: 16px;
-    color: #727272;
+  font-weight: normal;
+  font-size: 16px;
+  color: #727272;
+}
+
+.flex-work-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .MyJob {
-    height: 30px;
-    margin-bottom: 50px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 37px;
-    text-align: center;
-    color: #000000;
+  height: 30px;
+  margin-bottom: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
 }
 
 .video {
-    display: block;
-    height: 600px;
-    width: 40%;
-    margin-left: 405px;
+  display: block;
 }
 
 .button2 {
-    height: 100px;
+  height: 100px;
 }
 
 .block4 {
-    height: 1004px;
-    background: #EEEFF1;
+  height: 1004px;
+  background: #EEEFF1;
 }
 
-.project {
-    display: grid;
-    grid-template-columns: 50px 50px 5px;
-    grid-column-gap: 430px;
+/* !!! Все размеры должны быть относительными */
+.imgs-project {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
-.projects {
-    width: 5%;
-    height: 5%;
+.img-project img {
+  width: 100%;
+  height: 100%;
 }
-.one-project{
-    grid-column: 1 / 4;
-    grid-row: 1;
+
+.one-project {
+  grid-column: 1;
+  grid-row: 1;
 }
-.two-project{
-    grid-column: 2 / 4;
-    grid-row: 1;
+
+.two-project {
+  grid-column: 2;
+  grid-row: 1;
 }
-.three-project{
-    grid-column: 3 / 4;
-    grid-row: 1;
+
+.three-project {
+  grid-column: 3;
+  grid-row: 1;
 }
-.four-project{
-    grid-column: 4 / 4;
-    grid-row: 1;
+
+.four-project {
+  grid-column: 4;
+  grid-row: 1;
 }
-.five-project{
-    grid-column: 1 / 4;
-    grid-row: 2;
+
+.five-project {
+  grid-column: 1;
+  grid-row: 2;
 }
-.six-project{
-    grid-column: 2 / 4;
-    grid-row: 2;
+
+.six-project {
+  grid-column: 2;
+  grid-row: 2;
 }
-.seven-project{
-    grid-column: 3 / 4;
-    grid-row: 2;
+
+.seven-project {
+  grid-column: 3;
+  grid-row: 2;
 }
-.eight-project{
-    grid-column: 4 / 4;
-    grid-row: 2;
+
+.eight-project {
+  grid-column: 4;
+  grid-row: 2;
 }
+
 .clients {
-    height: 120px;
+  height: 120px;
 }
 
 .block5 {
-    height: 762px;
-    background: #EEEFF1;
+  height: 762px;
+  background: #EEEFF1;
 }
 
 .block4 {
-    height: 960px;
+  height: 960px;
 }
 
 .block5 {
-    height: 762px;
-    background: #EEEFF1;
+  height: 762px;
+  background: #EEEFF1;
 }
 
 .making {
-    height: 30px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 37px;
-    text-align: center;
-    color: #000000;
-    margin-bottom: 50px;
+  height: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 50px;
 }
 
 .text3 {
-    height: 67px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #727272;
+  height: 67px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
 }
 
 /* форма */
-#form{
-    display:block;
+#form {
+  display: block;
 }
+
 #fbame {
-    height: 50px;
-    width: 40%;
-    background: #FFFFFF;
-    margin-left: 100px;
+  height: 50px;
+  width: 40%;
+  background: #FFFFFF;
+  margin-left: 100px;
 }
 
 .block7 {
-    height: 50px;
-    background: #FFFFFF;
+  height: 50px;
+  background: #FFFFFF;
 }
 
 .block8 {
-    height: 175px;
-    background: #FFFFFF;
+  height: 175px;
+  background: #FFFFFF;
 }
 
 #send {
-    height: 55px;
-    width: 20%;
-    margin-top: 10px;
-    margin-left: 100px;
-    background: #34547A;
+  height: 55px;
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 100px;
+  background: #34547A;
 }
 
 #fname {
-    height: 50px;
-    width: 40%;
-    margin-left: 100px;
+  height: 50px;
+  width: 40%;
+  margin-left: 100px;
 }
 
 #lname {
-    height: 50px;
-    width: 40%;
-    margin-bottom: 10px;
-    margin-left: 100px;
+  height: 50px;
+  width: 40%;
+  margin-bottom: 10px;
+  margin-left: 100px;
 }
 
 /* футер */
-.footer{
-    width: 100%;
-    background:lightblue;
+.footer {
+  width: 100%;
+  background: lightblue;
 }
+
 .name {
-    height: 19px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 550px;
-    font-size: 18px;
-    line-height: 25px;
-    color: #FFFFFF;
+  height: 19px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 550px;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
 }
 
 .info2 {
-    height: 12px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 21px;
-    color: #FFFFFF;
+  height: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: #FFFFFF;
 }
 
 .vk {
-    height: 40px;
-    margin-left: 400px;
+  height: 40px;
+  margin-left: 400px;
 }
 
 /* Разные разрешения */
 @media screen and (max-width: 1600px) and (min-width:768px) {
-    header {}
+  header {}
 
-    .about-content {}
+  .about-content {}
 
-    .skills-content {}
+  .skills-content {}
 
-    .block10 {}
+  .block10 {}
 }
+
 @media screen and (max-width:1280px) and (min-width:720px) {
-    .one-project{
-        width:10px;
-}
-    .two-project{
-       width:10px;
-}
-    .three-project{
-        width:10px;
-}
-    .four-project{
-        width:10px;
-}
-    .five-project{
-        width:10px;
-}
-    .six-project{
-        width:10px;
-}
-    .seven-project{
-        width:10px;
-}
-    .eight-project{
-        width:10px;
-}
+  /* !!! Зачем менял здесь ширину? Эо не нужно делать
+  .one-project {
+    width: 10px;
+  }
+
+  .two-project {
+    width: 10px;
+  }
+
+  .three-project {
+    width: 10px;
+  }
+
+  .four-project {
+    width: 10px;
+  }
+
+  .five-project {
+    width: 10px;
+  }
+
+  .six-project {
+    width: 10px;
+  }
+
+  .seven-project {
+    width: 10px;
+  }
+
+  .eight-project {
+    width: 10px;
+  } */
 }
 
 @media screen and (max-width:1536px) and (min-width:864px) {
-    .about-content {}
+  .about-content {}
 
-    .skills-content {}
+  .skills-content {}
 
-    .menu {}
+  .menu {}
 }
 
 @media screen and (max-width:360px) and (min-width:640px) {
-    .MyJob {}
+  .MyJob {}
 }
