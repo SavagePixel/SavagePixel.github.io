@@ -76,3 +76,11 @@ span {
     border-radius: 0%;
   }
 }
+.GoTop{
+    background-color: #F4EDE5;
+    border:2px solid #F4EDE5;
+    height: 10%;
+    width: 9%;
+    position: fixed;
+    background-image: url(../images/1f519.png)
+}
