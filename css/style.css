@@ -48,11 +48,23 @@ input:focus: :placeholder {
     color: transparent;
 }
 
-.about-text {
-    font-size: 16px;
-    text-align: center;
+.about-text p {
+    display: inline;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
     color: #727272;
     margin-top: 50px;
+    margin-left: 5%;
+}
+
+.about-image img {
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+    margin-left: 5%;
 }
 
 .skills-promo {
