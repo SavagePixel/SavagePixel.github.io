@@ -487,12 +487,9 @@ btn {
 /* футер */
 .footer {
     width: 100%;
-<<<<<<< HEAD:css/style.css
     background: #34547A;
     padding: 3%;
-=======
     background: lightblue;
->>>>>>> 2be2cb287fac5a0cf505abf9aa4e6b20cd20d24e:style.css
 }
 
 .name {
@@ -522,21 +519,11 @@ btn {
 }
 
 /* Разные разрешения */
-
-
-<<<<<<< HEAD
-=======
-    .block10 {}
-}
-
-<<<<<<< HEAD:css/style.css
 @media screen and (max-width:1280px) and (min-width:720px) {}
-=======
 @media screen and (max-width:1280px) and (min-width:720px) {
     .one-project {
         width: 10px;
     }
->>>>>>> 2be2cb287fac5a0cf505abf9aa4e6b20cd20d24e:style.css
 
     .two-project {
         width: 10px;
@@ -571,10 +558,6 @@ btn {
 }
 
 @media screen and (max-width:360px) and (min-width:640px) {
-<<<<<<< HEAD:css/style.css
     .MyJob {}
 }
-=======
 }
->>>>>>> 2be2cb287fac5a0cf505abf9aa4e6b20cd20d24e:style.css
->>>>>>> 887646426c025bbcc373b57c082c5f072947af89
