@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="main.js">
         alert("hello")
-
     </script>
     <link href="https://fonts.googleapis.com/css?family=Revalia&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Revalia|Roboto&display=swap" rel="stylesheet">
@@ -17,6 +16,7 @@
 <body>
     <!--Кнопка в самое начало-->
     <input type="button" onclick="BackToTop()" class="GoTop" id="GoTop" value="UP">
+    <!--TODO хэдр не совсем по ценру, выровнить, добавить нижние отступы после заголовка разработка и текста-->
     <header class="header" id="header">
         <!--Навиг.меню-->
         <div class="container">
@@ -28,7 +28,7 @@
                     <li class="menu-item"><a href="#faq1" type="active">Работы</a></li>
                     <li class="menu-item"><a href="#faq1" type="active">Процесс</a></li>
                     <li class="menu-item"><a href="#contacts" type="active">Контакты</a></li>
-                    <li class="menu-item"><a href="inner_page/news.html" type="active">Вторая страница</a></li>
+
                 </ul>
             </nav>
             <div class="offer">
@@ -41,10 +41,10 @@
                     </div>
                     <div class="offer-txt">
                         <p>
-                            Пишу сайты на css,html и js
+                            Верстка сайтов: css, html и js
                         </p>
                     </div>
-                    <a href="#form" class="btn btn-offer btn-offer-max">Написать мне</a>
+                    <a href="inner_page/news.html" class="btn btn-offer btn-offer-max">вторая страница</a>
                 </div>
             </div>
         </div>
@@ -55,8 +55,27 @@
             <div class="container">
                 <div class="about-content">
                     <div class="title-min about-title">Обо мне</div>
+<<<<<<< HEAD
                     <div class="about-text">
                         <p></p>
+=======
+                    <div class="about-text-blocks">
+                        <div class="about-block">
+                            <div class="about-image"><img src="images/11-2-1.jpg" alt="Твич"></div>
+                            <div class="about-text">Стримлю на твиче</div>
+                        </div>
+                        <div class="about-block">
+                            <div class="about-image"><img class="symbol"
+                                    src="images/1200px-Coat_of_Arms_of_Irkutsk.svg.png" alt="Герб"></div>
+                            <div class="about-text">Проживаю в Иркутске</div>
+                        </div>
+
+                        <div class="about-block">
+                            <div class="about-image"><img src="images/game.png" alt="Игра"></div>
+                            <div class="about-text">Снимаю видео по играм</div>
+                        </div>
+
+>>>>>>> 887646426c025bbcc373b57c082c5f072947af89
                     </div>
                 </div>
             </div>
@@ -102,14 +121,14 @@
             <div class="container">
                 <div class="flex-work-video">
                     <div class="title-min title-job">
-                        Ролик по теме frontend
-                    </div>
-                    <div class="about-text">
-                        Никак,мне 12 лет какая работа?
+                        Первый этап создания сайта
                     </div>
 
                     <div class="video">
-                        <iframe width="900px" height="500px" src="https://www.youtube.com/embed/5osJMAnzwkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="900px" height="500px" src="https://www.youtube.com/embed/5osJMAnzwkE"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -129,25 +148,20 @@
                     <div class="img-project eight-project"><img src="images/Rectangle%207.svg" alt="projects"></div>
                 </div>
             </div>
-        </section>
-        <section class="form">
-            <div class="container">
-                <div class="making">
-                    <h2>Хотите веб-сайт?</h2>
-                </div>
-                <div class="text3">
-                    <p>Напишите мне:)</p>
-                </div>
-                <form id="form">
-                    <label for="fname"></label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname"></label><br>
-                    <input type="text" id="lname" name="lname">
-                    <label for="fbame"></label><br>
-                    <input type="text" id="fbame" name="fbame"><br>
-                    <input type="button" Onclick="btnClick();" id="send" name="Send">
-                </form>
-            </div>
+<<<<<<< HEAD
+=======
+            <!--<div class="container">-->
+            <form id="form">
+                <label for="fname"></label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname"></label><br>
+                <input type="text" id="lname" name="lname">
+                <label for="fbame"></label><br>
+                <input type="text" id="fbame" name="fbame"><br>
+                <input type="button" Onclick="btnClick();" id="send" name="Send">
+            </form>
+            <!--</div>-->
+>>>>>>> 2be2cb287fac5a0cf505abf9aa4e6b20cd20d24e
         </section>
     </main>
     <!--Контакты-->
@@ -158,10 +172,11 @@
                 <div class="name">
                     <h3>Стаселько Стас</h3>
                 </div>
+
+                <div class="vk"><img src="images/footer__soc-buttons.svg" alt="vk"></div>
                 <div class="info2">
                     <p>(с) 2020. Все права защищены.</p>
                 </div>
-                <div class="vk"><img src="images/footer__soc-buttons.svg" alt="vk"></div>
             </section>
         </div>
     </footer>
