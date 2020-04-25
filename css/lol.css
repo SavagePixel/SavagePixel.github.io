@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Revalia";
+    src: url(../fonts/Revalia-Regular.ttf) format("truetype");
+}
 body {
   margin: 0;
   background: #F4EDE5;
@@ -76,11 +80,13 @@ span {
     border-radius: 0%;
   }
 }
-.GoTop{
-    background-color: #F4EDE5;
-    border:2px solid #F4EDE5;
+.GoTop {
+    background-color: lightblue;
+    border:2px solid lightblue;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: Revalia;
     height: 10%;
-    width: 9%;
+    width: 14%;
     position: fixed;
-    background-image: url(../images/1f519.png)
 }
