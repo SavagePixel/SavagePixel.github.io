@@ -329,74 +329,42 @@ btn {
 }
 
 .one-project {
-<<<<<<< HEAD:css/style.css
     grid-column: 1;
-=======
-    grid-column: 1 / 4;
->>>>>>> 2be2cb287fac5a0cf505abf9aa4e6b20cd20d24e:style.css
     grid-row: 1;
 }
 
 .two-project {
-<<<<<<< HEAD:css/style.css
     grid-column: 2;
-=======
-    grid-column: 2 / 4;
->>>>>>> 2be2cb287fac5a0cf505abf9aa4e6b20cd20d24e:style.css
     grid-row: 1;
 }
 
 .three-project {
-<<<<<<< HEAD:css/style.css
     grid-column: 3;
-=======
-    grid-column: 3 / 4;
->>>>>>> 2be2cb287fac5a0cf505abf9aa4e6b20cd20d24e:style.css
     grid-row: 1;
 }
 
 .four-project {
-<<<<<<< HEAD:css/style.css
     grid-column: 4;
-=======
-    grid-column: 4 / 4;
->>>>>>> 2be2cb287fac5a0cf505abf9aa4e6b20cd20d24e:style.css
     grid-row: 1;
 }
 
 .five-project {
-<<<<<<< HEAD:css/style.css
     grid-column: 1;
-=======
-    grid-column: 1 / 4;
->>>>>>> 2be2cb287fac5a0cf505abf9aa4e6b20cd20d24e:style.css
     grid-row: 2;
 }
 
 .six-project {
-<<<<<<< HEAD:css/style.css
     grid-column: 2;
-=======
-    grid-column: 2 / 4;
->>>>>>> 2be2cb287fac5a0cf505abf9aa4e6b20cd20d24e:style.css
     grid-row: 2;
 }
 
 .seven-project {
-<<<<<<< HEAD:css/style.css
     grid-column: 3;
-=======
-    grid-column: 3 / 4;
->>>>>>> 2be2cb287fac5a0cf505abf9aa4e6b20cd20d24e:style.css
     grid-row: 2;
 }
 
 .eight-project {
-<<<<<<< HEAD:css/style.css
     grid-column: 4;
-=======
-    grid-column: 4 / 4;
->>>>>>> 2be2cb287fac5a0cf505abf9aa4e6b20cd20d24e:style.css
     grid-row: 2;
 }
 
@@ -489,7 +457,10 @@ btn {
     width: 100%;
     background: #34547A;
     padding: 3%;
+<<<<<<< HEAD
     background: lightblue;
+=======
+>>>>>>> 817edc42b4459e6308054902991f758597cedde1
 }
 
 .name {
@@ -519,45 +490,35 @@ btn {
 }
 
 /* Разные разрешения */
+<<<<<<< HEAD
 @media screen and (max-width:1280px) and (min-width:720px) {}
 @media screen and (max-width:1280px) and (min-width:720px) {
     .one-project {
         width: 10px;
     }
+=======
+@media screen and (max-width: 1600px) and (min-width:768px) {
+    header {}
 
-    .two-project {
-        width: 10px;
-    }
+    .about-content {}
 
-    .three-project {
-        width: 10px;
-    }
+    .skills-content {}
 
-    .four-project {
-        width: 10px;
-    }
-
-    .five-project {
-        width: 10px;
-    }
-
-    .six-project {
-        width: 10px;
-    }
-
-    .seven-project {
-        width: 10px;
-    }
-
-    .eight-project {
-        width: 10px;
-    }
+    .block10 {}
 }
 
-@media screen and (max-width:1536px) and (min-width:864px) {
+@media screen and (max-width:1280px) and (min-width:720px) {}
+>>>>>>> 817edc42b4459e6308054902991f758597cedde1
+
+
+
 }
 
 @media screen and (max-width:360px) and (min-width:640px) {
     .MyJob {}
+<<<<<<< HEAD
 }
 }
+=======
+}
+>>>>>>> 817edc42b4459e6308054902991f758597cedde1
