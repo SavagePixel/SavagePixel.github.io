@@ -50,23 +50,16 @@ input:focus: :placeholder {
 
 .about-text p {
     display: inline;
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
     list-style-type: none;
     color: #727272;
     margin-top: 50px;
-    margin-left: 5%;
+    margin-left: 8%;
+    text-align: left;
 }
-
-.about-image img {
-    display: inline-block;
-    width: 10%;
-    height: 10%;
-    margin-left: 5%;
-}
-
 .skills-promo {
     background: #34547A;
     height: 250px;
@@ -444,26 +437,5 @@ btn {
 }
 
 /* Разные разрешения */
-@media screen and (max-width: 1600px) and (min-width:768px) {
-    header {}
 
-    .about-content {}
 
-    .skills-content {}
-
-    .block10 {}
-}
-
-@media screen and (max-width:1280px) and (min-width:720px) {}
-
-@media screen and (max-width:1536px) and (min-width:864px) {
-    .about-content {}
-
-    .skills-content {}
-
-    .menu {}
-}
-
-@media screen and (max-width:360px) and (min-width:640px) {
-    .MyJob {}
-}
