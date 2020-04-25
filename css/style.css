@@ -48,13 +48,11 @@ input:focus: :placeholder {
     color: transparent;
 }
 
-<<<<<<< HEAD
 .about-text p {
     display: inline;
     font-weight: 400;
     font-size: 14px;
-=======
-
+}
 
 .about-text-blocks {
     padding-top: 5%;
@@ -84,18 +82,13 @@ input:focus: :placeholder {
 .about-text {
     font-weight: 500;
     font-size: 15px;
->>>>>>> 887646426c025bbcc373b57c082c5f072947af89
     text-transform: uppercase;
     text-decoration: none;
     list-style-type: none;
     color: #727272;
-<<<<<<< HEAD
     margin-top: 50px;
     margin-left: 8%;
     text-align: left;
-}
-=======
-
 }
 
 .about-image img {
@@ -104,8 +97,6 @@ input:focus: :placeholder {
     padding-bottom: 10%;
 }
 
-
->>>>>>> 887646426c025bbcc373b57c082c5f072947af89
 .skills-promo {
     background: #34547A;
     height: 250px;
@@ -457,10 +448,7 @@ btn {
     width: 100%;
     background: #34547A;
     padding: 3%;
-<<<<<<< HEAD
     background: lightblue;
-=======
->>>>>>> 817edc42b4459e6308054902991f758597cedde1
 }
 
 .name {
@@ -490,13 +478,11 @@ btn {
 }
 
 /* Разные разрешения */
-<<<<<<< HEAD
 @media screen and (max-width:1280px) and (min-width:720px) {}
 @media screen and (max-width:1280px) and (min-width:720px) {
     .one-project {
         width: 10px;
     }
-=======
 @media screen and (max-width: 1600px) and (min-width:768px) {
     header {}
 
@@ -508,17 +494,7 @@ btn {
 }
 
 @media screen and (max-width:1280px) and (min-width:720px) {}
->>>>>>> 817edc42b4459e6308054902991f758597cedde1
-
-
-
 }
 
 @media screen and (max-width:360px) and (min-width:640px) {
     .MyJob {}
-<<<<<<< HEAD
-}
-}
-=======
-}
->>>>>>> 817edc42b4459e6308054902991f758597cedde1
